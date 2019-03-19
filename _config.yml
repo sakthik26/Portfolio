@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -17,22 +17,22 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     forks: true
     projects:
     # - repo-name
 
-# social_media:
+  social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
+    facebook: shakthik26
+    linkedin: sakthi-kumarr
+    medium: sakthik26
   # stackoverflow: your_user_id
   # telegram: your_username
   # twitter: your_username
